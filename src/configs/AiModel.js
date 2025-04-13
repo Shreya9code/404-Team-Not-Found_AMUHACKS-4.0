@@ -55,7 +55,7 @@ export const AIDesignIdea = {
   },
 };
 export const AILogoPrompt = genAI
-  .getGenerativeModel({ model: "gemini-1.5-flash" })
+  .getGenerativeModel({ model: "gemini-2.0-flash" })
   .startChat({
     generationConfig: { temperature: 0.9 },
     history: [
