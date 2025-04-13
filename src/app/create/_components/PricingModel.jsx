@@ -5,6 +5,7 @@ import Lookup from '@/app/_data/Lookup'
 import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 import { useUser,useClerk, useSignIn } from '@clerk/nextjs'
+import Link from 'next/link';
 
 function PricingModel({ formData }) {
   const { user } = useUser();
@@ -60,9 +61,10 @@ function PricingModel({ formData }) {
             </ul>
 
             {user ? (
+              <Link href={`/generate-logo?type=${pricing.title}`}>
               <Button className="w-full bg-violet-600 text-white rounded-md hover:bg-violet-700 transition">
                 {pricing.button}
-              </Button>
+              </Button></Link>
             ) : (
               <Button
                 className="w-full bg-violet-600 text-white rounded-md hover:bg-violet-700 transition"
