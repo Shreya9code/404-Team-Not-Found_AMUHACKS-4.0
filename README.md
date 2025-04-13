@@ -1,6 +1,6 @@
 # PixelForge
 
-**PixelForge** is an AI-powered logo generation platform that enables anyone to create unique, professional-grade logos by simply describing their brand in natural language. Whether you're an entrepreneur, designer, or student, PixelForge brings powerful design tools to your fingertips — no experience required.
+**PixelForge** is an AI-powered logo generation platform built during  AMUHACKS 4.0 that enables anyone to create unique, professional-grade logos by simply describing their brand in natural language. Whether you're an entrepreneur, designer, or student, PixelForge brings powerful design tools to your fingertips — no experience required.
 
 ---
 
